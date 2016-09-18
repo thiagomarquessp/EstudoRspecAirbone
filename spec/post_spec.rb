@@ -1,5 +1,5 @@
-describe 'Get Marotis' do
-  it 'Post Exemple' do
+describe 'Post Marotis' do
+  it 'Post Nosso de cada dia' do
     createbody = {
       :title => Faker::Name.title,
       :body => Faker::Lorem.paragraph(1),
