@@ -1,3 +1,6 @@
+require 'airborne'
+require 'faker'
+
 describe 'Post Marotis' do
   it 'Post Nosso de cada dia' do
     createbody = {

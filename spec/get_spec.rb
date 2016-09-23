@@ -1,3 +1,5 @@
+require 'airborne'
+
 describe 'Get Marotis' do
   it 'Get nosso de cada dia retornando valores exatos' do
     get 'http://jsonplaceholder.typicode.com/posts/100'
